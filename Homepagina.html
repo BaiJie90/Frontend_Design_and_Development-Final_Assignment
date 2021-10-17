@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
+    <title>Homepagina</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepagina</title>
+    <meta name="description" content="Homepagina van mijn website voor FDD" />
+    <script src="Dropdownscript.js"></script>
   </head>
   <body>
-    <div>
+    <nav>
       <!-- Logo menu -->
       <a href="/Homepagina.html">Logo placeholder</a>
 
       <!-- Creëert een dropdown knop (zonder CSS, moet nog toevoegen en naar verwijzen)-->
-      <div class="">
-        <button class="">Leertraject</button>
-        <div class="">
+      <div class="MK">
+        <button onclick="Dropdown()" class="L_MK">Leertraject</button>
+        <div id="dropdown" class="L_DPMK">
           <a href="/Detailpaginas/FFD_Detailpagina_Week 1.html"
             >Week 1 | Interaction Design</a
           >
@@ -24,9 +26,15 @@
         </div>
       </div>
 
-      <!-- Andere menu knoppen -->
-      <a href="">Over Mij</a>
-      <a href="">Contact</a>
-    </div>
+      <!-- Over Mij menuknop -->
+      <div class="MK">
+        <button class="OM_MK"><a href="">Over Mij</a></button>
+      </div>
+
+      <!-- Contact menuknop-->
+      <div class="MK">
+        <button class="C_MK"><a href="">Contact</a></button>
+      </div>
+    </nav>
   </body>
 </html>
