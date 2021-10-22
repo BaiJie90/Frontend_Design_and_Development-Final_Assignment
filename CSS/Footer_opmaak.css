@@ -1,0 +1,55 @@
+/* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+/* https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+.Footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.SLinks {
+  float: right;
+  padding: 20px;
+  list-style: none;
+}
+
+.LogoC {
+  float: left;
+  padding: 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 16px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 5px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
