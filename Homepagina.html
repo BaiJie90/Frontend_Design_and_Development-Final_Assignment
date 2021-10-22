@@ -6,33 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Homepagina van mijn website voor FDD" />
-    <script src="Dropdownscript.js"></script>
+    <link rel="stylesheet" href="CSS/Menubar_opmaak.css" />
   </head>
   <body>
-    <nav>
+    <nav class="Logo">
       <!-- Logo menu -->
-      <a href="/Homepagina.html">Logo placeholder</a>
+      <div class="MK_Logo">
+        <a href="/Homepagina.html"
+          ><img
+            class="MN_Logo"
+            src="Bronnen/Website logo/Website logo.png"
+            alt="Logo van de website"
+        /></a>
+      </div>
+    </nav>
 
-      <!-- Creëert een dropdown knop (zonder CSS, moet nog toevoegen en naar verwijzen)-->
-      <div class="MK">
-        <button onclick="Dropdown()" class="L_MK">Leertraject</button>
-        <div id="dropdown" class="L_DPMK">
+    <nav class="Menuknop">
+      <!-- Creëert een dropdown knop -->
+      <div class="MK1">
+        <button class="L_MK">Leertraject</button>
+        <div class="L_DPMK">
           <a href="/Detailpaginas/FFD_Detailpagina_Week 1.html"
             >Week 1 | Interaction Design</a
           >
           <a href="/Detailpaginas/FFD_Detailpagina_Week 2.html"
             >Week 2 | Wireframing en Prototyping</a
           >
+          <a href=""> Week 3 | Usability Testing en Best Practices</a>
+          <a href=""> Week 4 | Grafisch Design en Accessibility</a>
+          <a href=""> Week 5 | Introductie HTML & CSS</a>
+          <a href=""> Week 6 | CSS Frameworks</a>
+          <a href=""> Week 7 | DNS & Uploaden van je site</a>
         </div>
       </div>
 
       <!-- Over Mij menuknop -->
-      <div class="MK">
+      <div class="MK2">
         <button class="OM_MK"><a href="">Over Mij</a></button>
       </div>
 
       <!-- Contact menuknop-->
-      <div class="MK">
+      <div class="MK3">
         <button class="C_MK"><a href="">Contact</a></button>
       </div>
     </nav>

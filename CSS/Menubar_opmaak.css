@@ -1,0 +1,97 @@
+/* https://www.w3schools.com/howto/howto_css_dropdown.asp */
+/* Opmaak van de menu knoppen */
+.L_MK {
+  background-color: #ffffff;
+  color: #01b9f6;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+}
+
+.OM_MK {
+  background-color: #ffffff;
+  color: #01b9f6;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+}
+
+.C_MK {
+  background-color: #ffffff;
+  color: #01b9f6;
+  padding: 16px;
+  font-size: 24px;
+  border: none;
+}
+
+/* positionering van de menuknoppen */
+.MK_Logo {
+  height: 60px;
+  width: 175px;
+  float: left;
+  padding: 25px;
+}
+
+.Menuknop {
+  float: right;
+  padding: auto;
+  margin: 25px;
+}
+
+.MK1 {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.MK2 {
+  display: inline-block;
+  padding: 10px;
+}
+
+.MK3 {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Content van het dropdown menu */
+.L_DPMK {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links in het dropdown menu */
+.L_DPMK a {
+  color: black;
+  padding: 12px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.L_DPMK a:hover {
+  background-color: #e7e4e4;
+}
+
+/* Show the dropdown menu on hover */
+.MK1:hover .L_DPMK {
+  display: block;
+}
+
+/* Kleur veranderen wanneer de muis over de knoppen hangt */
+.MK1:hover .L_MK {
+  background-color: #e7e4e4;
+}
+
+.MK2:hover .OM_MK {
+  background-color: #e7e4e4;
+}
+
+.MK3:hover .C_MK {
+  background-color: #e7e4e4;
+}
