@@ -1,4 +1,13 @@
 /* https://www.w3schools.com/howto/howto_css_dropdown.asp */
+
+.Menubalk {
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: black;
+  text-align: left;
+}
+
 /* Opmaak van de menu knoppen */
 .L_MK {
   background-color: #ffffff;
