@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
+    <title>FDD - Week 1 | Interaction Design</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FDD - Week 1 | Interaction Design</title>
+    <meta name="description" content="Week 1 | Interaction Design" />
+    <link rel="stylesheet" href="/CSS/Menubar_opmaak.css" />
+    <link rel="stylesheet" href="/CSS/Footer_opmaak.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <!-- Menubalk -->
+    <nav class="Menubalk">
+      <nav class="Logo">
+        <!-- Logo menu -->
+        <div class="MK_Logo">
+          <a href="/Homepagina.html"
+            ><img
+              class="MN_Logo"
+              src="/Bronnen/Website logo/Website logo.png"
+              alt="Logo van de website"
+          /></a>
+        </div>
+      </nav>
+
+      <nav class="Menuknop">
+        <!-- Creëert een dropdown knop -->
+        <div class="MK1">
+          <button class="L_MK">Leertraject</button>
+          <div class="L_DPMK">
+            <a href="/Detailpaginas/FFD_Detailpagina_Week 1.html"
+              >Week 1 | Interaction Design</a
+            >
+            <a href="/Detailpaginas/FFD_Detailpagina_Week 2.html"
+              >Week 2 | Wireframing en Prototyping</a
+            >
+            <a href=""> Week 3 | Usability Testing en Best Practices</a>
+            <a href=""> Week 4 | Grafisch Design en Accessibility</a>
+            <a href=""> Week 5 | Introductie HTML & CSS</a>
+            <a href=""> Week 6 | CSS Frameworks</a>
+            <a href=""> Week 7 | DNS & Uploaden van je site</a>
+          </div>
+        </div>
+
+        <!-- Over Mij menuknop -->
+        <div class="MK2">
+          <button class="OM_MK"><a href="">Over Mij</a></button>
+        </div>
+
+        <!-- Contact menuknop-->
+        <div class="MK3">
+          <button class="C_MK"><a href="">Contact</a></button>
+        </div>
+      </nav>
+    </nav>
+
     <!-- Pagina hoofdstuk -->
     <h1>Week 1 | Interaction Design</h1>
 
@@ -45,5 +97,49 @@
       maken van iets, interactie kunnen maken. Het eerste wat de gebruikers zien
       wanneer ze bijvoorbeeld een app of website openen.
     </p>
+
+    <!-- Websitevoet -->
+    <footer class="Footer">
+      <div class="FLogo">
+        <a href="/Homepagina.html"
+          ><img
+            class=""
+            src="/Bronnen/Website logo/Website logo.png"
+            alt="Logo van de website"
+        /></a>
+        <p>&copy; Bai Jie Cao | Christelijke Hogeschool Ede | 2021</p>
+      </div>
+
+      <ul class="SLinks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            class="fa fa-twitter"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="fa fa-youtube"
+          ></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
