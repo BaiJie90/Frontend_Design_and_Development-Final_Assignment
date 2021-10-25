@@ -1,3 +1,21 @@
+.fg1parent {
+  position: relative;
+} /* REQUIRED */
+.fg1parent figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* (D) CAPTION COSMETICS */
+.fg1parent figcaption {
+  box-sizing: border-box;
+  width: fit-content;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
 /* 
 Zorgt dat de afbeelding correct wordt weergeven 
 https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
@@ -6,15 +24,15 @@ https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the
   padding: 0;
   display: block;
   margin: 0 auto;
-  max-height: 90%;
-  max-width: 90%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /*
 Weergeeft de bron vermelding op de afbeelding
 https://love2dev.com/blog/create-an-overlapping-figure-caption-using-basic-css/
 */
-.fg1cap {
+.fg1cap/ssdasd {
   position: relative;
   height: 21px;
   width: fit-content;
