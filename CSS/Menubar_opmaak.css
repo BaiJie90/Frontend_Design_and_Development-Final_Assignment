@@ -1,4 +1,18 @@
-/* https://www.w3schools.com/howto/howto_css_dropdown.asp */
+/*
+Zorgt ervoor de menubalk een echte balk wordt
+*/
+
+.Menubalk {
+  width: 100%;
+  height: 130px;
+  background: white;
+  overflow: auto;
+}
+
+/* 
+Creeert de dropdown menu
+https://www.w3schools.com/howto/howto_css_dropdown.asp 
+*/
 
 .Menubalk {
   left: 0;
@@ -8,32 +22,41 @@
   text-align: left;
 }
 
-/* Opmaak van de menu knoppen */
-.L_MK {
+/* 
+Opmaak van de menu knoppen 
+*/
+
+.L_MK1 {
   background-color: #ffffff;
   color: #01b9f6;
   padding: 16px;
+  text-decoration: none;
   font-size: 24px;
   border: none;
 }
 
-.OM_MK {
+.OM_MK2 {
   background-color: #ffffff;
   color: #01b9f6;
   padding: 16px;
+  text-decoration: none;
   font-size: 24px;
   border: none;
 }
 
-.C_MK {
+.C_MK3 {
   background-color: #ffffff;
   color: #01b9f6;
   padding: 16px;
+  text-decoration: none;
   font-size: 24px;
   border: none;
 }
 
-/* positionering van de menuknoppen */
+/* 
+positionering van de menuknoppen 
+*/
+
 .MK_Logo {
   height: 60px;
   width: 175px;
@@ -63,8 +86,11 @@
   padding: 10px;
 }
 
-/* Content van het dropdown menu */
-.L_DPMK {
+/* 
+Content van het dropdown menu 
+*/
+
+.MK1_Dropdowncontent {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -73,8 +99,11 @@
   z-index: 1;
 }
 
-/* Links in het dropdown menu */
-.L_DPMK a {
+/* 
+Links in het dropdown menu 
+*/
+
+.MK1_Dropdowncontent a {
   color: black;
   padding: 12px 16px;
   font-size: 20px;
@@ -82,25 +111,54 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.L_DPMK a:hover {
+/* 
+Verandert de links in het dropdown menu wanneer de muis erboven hangt 
+*/
+
+.MK1_Dropdowncontent a:hover {
   background-color: #e7e4e4;
 }
 
-/* Show the dropdown menu on hover */
-.MK1:hover .L_DPMK {
+/* 
+Laat het dropdown menu zien wanneer de muis erboven hangt 
+*/
+
+.MK1:hover .MK1_Dropdowncontent {
   display: block;
 }
 
-/* Kleur veranderen wanneer de muis over de knoppen hangt */
-.MK1:hover .L_MK {
+/* 
+Kleur veranderen wanneer de muis over de knoppen hangt 
+*/
+
+.MK1:hover .L_MK1 {
   background-color: #e7e4e4;
 }
 
-.MK2:hover .OM_MK {
+.MK2:hover .OM_MK2 {
   background-color: #e7e4e4;
 }
 
-.MK3:hover .C_MK {
+.MK3:hover .C_MK3 {
   background-color: #e7e4e4;
+}
+
+/* 
+Verwijdert de opmaak voor de links 
+*/
+
+.OM_MK2 a:link,
+.OM_MK2 a:visited,
+.OM_MK2 a:hover,
+.OM_MK2 a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.C_MK3 a:link,
+.C_MK3 a:visited,
+.C_MK3 a:hover,
+.C_MK3 a:active {
+  text-decoration: none;
+  color: inherit;
 }

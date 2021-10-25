@@ -1,0 +1,49 @@
+/* 
+Zorgt dat de afbeelding correct wordt weergeven 
+https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
+*/
+.fg1 {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 90%;
+  max-width: 90%;
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+}
+
+/*
+Weergeeft de bron vermelding op de afbeelding
+https://love2dev.com/blog/create-an-overlapping-figure-caption-using-basic-css/
+*/
+.fg1cap {
+  position: relative;
+  height: 21px;
+  width: fit-content;
+  top: -21px;
+  color: #fff;
+  font-size: 12pt;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  margin-left: 50px;
+}
+
+/*
+Weergeeft de tekst bovenop de figuur
+https://www.w3schools.com/howto/howto_css_blurred_background.asp 
+*/
+.fg1tekst {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 87%;
+  padding: 10px;
+  text-align: center;
+}
