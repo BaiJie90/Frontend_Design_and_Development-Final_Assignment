@@ -1,0 +1,43 @@
+/*
+Volgende en vorige week knoppen op de detailspagina
+https://www.w3schools.com/howto/howto_css_next_prev.asp
+*/
+
+.Volgende_vorige_knop {
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+.vorige,
+.volgende {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.vorige:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.volgende:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.vorige {
+  background-color: #f1f1f1;
+  color: black;
+  float: left;
+}
+
+.volgende {
+  background-color: #01b9f6;
+  color: white;
+  float: right;
+}
+
+.round {
+  border-radius: 50%;
+}

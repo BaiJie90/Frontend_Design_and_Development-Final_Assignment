@@ -3,10 +3,10 @@
 
 /* Hele footer */
 .Footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
-  color: black;
+  height: auto;
+  background-color: white;
+  overflow: hidden;
   text-align: center;
 }
 

@@ -1,4 +1,20 @@
-/* https://code-boxx.com/position-text-over-image-html/ */
+/* 
+Zorgt dat de afbeelding correct wordt weergeven 
+https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
+*/
+.fg1 {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*
+Weergeeft de bron vermelding op de afbeelding
+Oude manier : https://love2dev.com/blog/create-an-overlapping-figure-caption-using-basic-css/
+https://code-boxx.com/position-text-over-image-html/ 
+*/
 .fg1parent {
   position: relative;
 } /* REQUIRED */
@@ -16,35 +32,6 @@
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
 }
-
-/* 
-Zorgt dat de afbeelding correct wordt weergeven 
-https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
-*/
-.fg1 {
-  padding: 0;
-  display: block;
-  margin: 0 auto;
-  max-height: 100%;
-  max-width: 100%;
-}
-
-/*
-Weergeeft de bron vermelding op de afbeelding
-https://love2dev.com/blog/create-an-overlapping-figure-caption-using-basic-css/
-*/
-.fg1cap/ssdasd {
-  position: relative;
-  height: 21px;
-  width: fit-content;
-  top: -21px;
-  color: #fff;
-  font-size: 12pt;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-align: left;
-  margin-left: 63px;
-}
-
 /*
 Zorgt ervoor dat de tekstdozen naast elkaar worden weergeven
 https://www.w3schools.com/css/css_float_examples.asp

@@ -6,26 +6,37 @@ https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the
   padding: 0;
   display: block;
   margin: 0 auto;
-  max-height: 90%;
-  max-width: 90%;
+  max-height: 100%;
+  max-width: 100%;
   filter: blur(8px);
   -webkit-filter: blur(2px);
 }
 
 /*
 Weergeeft de bron vermelding op de afbeelding
-https://love2dev.com/blog/create-an-overlapping-figure-caption-using-basic-css/
+https://code-boxx.com/position-text-over-image-html/ 
 */
-.fg1cap {
+.fg1parent,
+.fg2parent,
+.fg3parent {
   position: relative;
-  height: 21px;
+}
+
+/* REQUIRED */
+.fg1parent figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 70px;
+}
+
+/* (D) CAPTION COSMETICS */
+.fg1parent figcaption {
+  box-sizing: border-box;
   width: fit-content;
-  top: -21px;
-  color: #fff;
-  font-size: 12pt;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-align: left;
-  margin-left: 50px;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 /*
@@ -42,8 +53,69 @@ https://www.w3schools.com/howto/howto_css_blurred_background.asp
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 1;
   width: 87%;
   padding: 10px;
   text-align: center;
+}
+
+/*
+Zorgt ervoor dat de tekstdozen centraal staan
+https://www.w3.org/Style/Examples/007/center.en.html
+*/
+.tekstdoos1,
+.tekstdoos2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+/*
+Zorgt voor de opmaak en de grote van de afbeeldingen in de teksten
+*/
+.fg2parent,
+.fg3parent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+.fg2,
+.fg3 {
+  width: 720px;
+}
+
+/*
+Zorgt ervoor dat de caption in de figuur staat
+*/
+.fg2parent figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 4px;
+}
+
+.fg2parent figcaption {
+  box-sizing: border-box;
+  width: fit-content;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.fg3parent figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 4px;
+}
+
+.fg3parent figcaption {
+  box-sizing: border-box;
+  width: fit-content;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
 }
