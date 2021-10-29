@@ -1,0 +1,31 @@
+/*
+Pagina opmaak
+*/
+.pagina_inhoud {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/*
+Figuur en tekst definiëren
+https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
+*/
+.fg1_en_tekst {
+  display: flex;
+}
+
+/*
+Eigenschappen en positionering van de afbeelding
+https://befused.com/css/flexbox-prevent-image-shrinking/
+*/
+.fg1parent {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.fg1 {
+  width: 246px;
+  height: 319px;
+}
