@@ -1,0 +1,2 @@
+Als de verwijzing op dezelfde folder zit kan er gebruikt worden zonder een "/"
+Als de verwijzing in een andere folder zit dan moet er eerst terug verwezen worden en dan verder "../"
