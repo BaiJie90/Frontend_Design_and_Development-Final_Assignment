@@ -35,8 +35,8 @@ https://code-boxx.com/position-text-over-image-html/
   box-sizing: border-box;
   width: fit-content;
   color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 /*
@@ -101,8 +101,8 @@ Zorgt ervoor dat de caption in de figuur staat
   box-sizing: border-box;
   width: fit-content;
   color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .fg3parent figcaption {
@@ -116,6 +116,6 @@ Zorgt ervoor dat de caption in de figuur staat
   box-sizing: border-box;
   width: fit-content;
   color: white;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  background: rgba(0, 0, 0, 0.4);
 }
