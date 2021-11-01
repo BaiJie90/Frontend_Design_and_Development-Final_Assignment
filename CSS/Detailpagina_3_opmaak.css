@@ -13,9 +13,9 @@ https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the
 }
 
 /*
-  Weergeeft de bron vermelding op de afbeelding
-  https://code-boxx.com/position-text-over-image-html/ 
-  */
+    Weergeeft de bron vermelding op de afbeelding
+    https://code-boxx.com/position-text-over-image-html/ 
+    */
 .fg1parent {
   position: relative;
 }
@@ -38,9 +38,9 @@ https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the
 }
 
 /*
-  Weergeeft de tekst bovenop de figuur
-  https://www.w3schools.com/howto/howto_css_blurred_background.asp 
-  */
+    Weergeeft de tekst bovenop de figuur
+    https://www.w3schools.com/howto/howto_css_blurred_background.asp 
+    */
 .fg1tekst {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
@@ -62,8 +62,7 @@ Zorgt ervoor dat de tekstdozen centraal staan
 https://www.w3.org/Style/Examples/007/center.en.html
 */
 .tekstdoos1,
-.tekstdoos2,
-.tekstdoos3 {
+.tekstdoos2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -73,74 +72,32 @@ https://www.w3.org/Style/Examples/007/center.en.html
 /*
 Zorgt voor de opmaak en de grote van de afbeeldingen in de teksten
 */
-.fg2parent,
-.fg3parent,
-.fg4parent {
+.fg2parent {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 720px;
 }
 
-.fg2,
-.fg3,
-.fg4 {
-  width: 720px;
-}
-
-/*
-Zorgt dat de caption/bronvermelding een inspringing heeft
-*/
-.fg2cap,
-.fg3cap2,
-.quote {
-  margin-left: 30px;
-}
-
-/*
-Wanner de muis over de afbeelding hangt wordt de afbeelding vergroot
-https://stackoverflow.com/questions/25036597/how-to-enlarge-an-image-on-hover-or-click
-*/
 .fg2 {
-  transition: transform 0.25s ease;
-}
-
-.fg2:hover {
-  -webkit-transform: scale(1.5); /* or some other value */
-  transform: scale(1.5);
+  width: 720px;
 }
 
 /*
 Zorgt ervoor dat de caption in de figuur staat
 */
-.fg3parent,
-.fg4parent {
+.fg2parent {
   position: relative;
 }
 
-.fg3parent figcaption {
+.fg2parent figcaption {
   position: absolute;
   bottom: 0;
   left: 0;
   margin-bottom: 4px;
 }
 
-.fg3parent figcaption {
-  box-sizing: border-box;
-  width: fit-content;
-  color: white;
-  text-align: left;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.fg4parent figcaption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-bottom: 4px;
-}
-
-.fg4parent figcaption {
+.fg2parent figcaption {
   box-sizing: border-box;
   width: fit-content;
   color: white;
