@@ -1,74 +1,339 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
+    <title>FDD - Week 2 | Wireframing en Prototyping</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FDD - Week 2 | Wireframing en Prototyping</title>
+    <meta name="description" content="Week 2 | Wireframing en Prototyping" />
+    <link rel="stylesheet" href="../CSS/Menubar_opmaak.css" />
+    <link rel="stylesheet" href="../CSS/Detailpagina_2_opmaak.css" />
+    <link rel="stylesheet" href="../CSS/Volgende_vorige_knoppen_opmaak.css" />
+    <link rel="stylesheet" href="../CSS/Footer_opmaak.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <!-- Pagina hoofdstuk -->
-    <h1>Week 2 | Wireframing en Prototyping</h1>
+    <!-- Menubalk -->
+    <nav class="Menubalk">
+      <nav class="Logo">
+        <!-- Logo menu -->
+        <div class="MK_Logo">
+          <a href="../index.html"
+            ><img
+              class="MN_Logo"
+              src="../Bronnen/Website logo/Website logo.png"
+              alt="Logo van de website"
+          /></a>
+        </div>
+      </nav>
+
+      <nav class="Menuknop">
+        <!-- Creëert een dropdown knop -->
+        <div class="MK1">
+          <button class="L_MK1">Leertraject</button>
+          <div class="MK1_Dropdowncontent">
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_1.html"
+              >Week 1 | Interaction Design</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_2.html"
+              >Week 2 | Wireframing en Prototyping</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_3.html">
+              Week 3 | Usability Testing en Best Practices</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_4.html">
+              Week 4 | Grafisch Design en Accessibility</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_5.html">
+              Week 5 | Introductie HTML & CSS</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_6.html">
+              Week 6 | CSS Frameworks</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_7.html">
+              Week 7 | DNS & Uploaden van je site</a
+            >
+            <a href="../Detailpaginas/FDD_Eindopdracht.html">
+              FDD | Eindopdracht</a
+            >
+          </div>
+        </div>
+
+        <!-- Over Mij menuknop -->
+        <div class="MK2">
+          <button class="OM_MK2">
+            <a href="../Over_Mij.html">Over Mij</a>
+          </button>
+        </div>
+
+        <!-- Contact menuknop-->
+        <div class="MK3">
+          <button class="C_MK3"><a href="../Contact.html">Contact</a></button>
+        </div>
+      </nav>
+    </nav>
+
+    <figure class="fg1parent">
+      <!-- Pagina hoofdstuk -->
+      <div class="fg1tekst">
+        <h1>Week 2 | Wireframing en Prototyping</h1>
+      </div>
+
+      <img
+        class="fg1"
+        src="../Bronnen/Detailpagina 2 bronnen/Week 2 - banner.png"
+        alt="Banner van week 2 wireframing en prototyping"
+      />
+      <figcaption class="fg1cap">
+        Lucid Content Team. (z.d.). Wireframes [Afbeelding]. <br />
+        https://www.lucidchart.com/blog/wireframes-vs-mockups
+      </figcaption>
+    </figure>
 
     <!-- Hoofdstuk 1 + paragraaf -->
-    <h2>Samenvatting van college</h2>
-    <p>
-      Het 2de college had als thema Wireframing en interfaces, het doel van het
-      college was om te vertellen wat user interfaces zijn en hoe wireframing
-      helpt om tot een eerste ontwerp te komen. Na het korte intro kregen we een
-      kleine terugblik op het college en het stof van de week ervoor. We kregen
-      een terugblik op hoe het proces van interaction design in elkaar zat en
-      voor welk doelgroep je beroepsproduct was. We kregen daarna een
-      introductie op wireframes en begonnen we met een filmpje dat ons een
-      beetje de basis introduceerde van wireframes. Het filmpje gaf aan dat er
-      verschillende processen zijn in het onderwerp stadium van een website, low
-      fidelity, mid fidelity en high fidelity. Elke proces heeft zijn eigen
-      ontwikkelingen met betrekking tot het ontwerp. Uitleg wireframing Na het
-      filmpje kregen we het onderwerp wireframes maken, we kregen een
-      stappenplan uitgelegd hoe je een wireframe kunt gaan maken. Het
-      stappenplan gaf aan om als eerst met woorden te beginnen hierbij met je je
-      bedenken voor wie je het maakt, waarom je het maakt met welk doel, welke
-      interactie er nodig zijn en andere relevante zaken die van belang zijn.
-      Als tweede stap creëer je een sitemap (uitleg sitemap). De derde stap is
-      om een ontwerp te gebruiken of een bestaand ontwerp maar let wel op dat je
-      het mag gebruiken dat in verband met copyrights. Als laatste stap is dat
-      je jezelf natuurlijk moet laten inspireren. We kregen daarna weer uitleg
-      over of we onze website als eerst voor de mobiel moeten baseren of voor de
-      computer, dit was onderdeel van low fi wireframing proces. In het laatste
-      gedeelte van het college werd Atomic Design uitgelegd. We sloten het
-      college toen af met een korte werk sessie waar iedereen even aan het werk
-      gezet met het huiswerk.
-    </p>
+    <div class="tekstdoos1">
+      <h2>Samenvatting van college</h2>
+      <p>
+        Het 2de college had als thema
+        <em class="curs">Wireframing en interfaces</em>, het doel van het
+        college was om te vertellen wat user interfaces zijn en hoe wireframing
+        helpt om tot een eerste ontwerp te komen. We kregen een korte terugblik
+        op hoe het proces van interaction design in elkaar zat en voor welk
+        doelgroep je beroepsproduct was.
+        <br />
+        <br />
+        We kregen daarna een introductie op wireframes en begonnen we met een
+        filmpje dat ons een beetje de basis introduceerde van wireframes. Het
+        filmpje gaf aan dat er verschillende processen zijn in het onderwerp
+        stadium van een website low-fidelity, mid-fidelity en high-fidelity.
+        Elke proces heeft zijn eigen ontwikkelingen met betrekking tot het
+        ontwerp. Onder dit artikel vindt u een uitleg over wireframing.
+        <br />
+        <br />
+        Na het filmpje kregen we het onderwerp wireframes maken, we kregen een
+        stappenplan uitgelegd hoe je een wireframe kunt gaan maken. Het
+        stappenplan gaf aan om als eerst met woorden te beginnen hierbij moet je
+        je bedenken voor wie je het maakt, waarom je het maakt met welk doel,
+        welke interactie er nodig zijn en andere relevante zaken die van belang
+        zijn. Als tweede stap creëer je een sitemap.
+        <br />
+      </p>
+
+      <figure class="fg2parent">
+        <img
+          class="fg2"
+          src="../Bronnen/Website algemene bronnen/Sitemap 03-10-21.png"
+          alt="Sitemap van mijn website, sitemap was nog wel in de ontwikkeling fase"
+        />
+
+        (2021, 15 juli). In Wikipedia.
+        <a target="_blank" href="https://nl.wikipedia.org/wiki/Sitemap"
+          >https://nl.wikipedia.org/wiki/Sitemap</a
+        >
+        <br />
+        <figcaption class="fg2cap">
+          <em class="curs">
+            Een sitemap, soms siteplan, is een pagina of document waarin links
+            naar alle pagina's van een website staan, die meestal op onderwerp
+            dan wel relevantie zijn gesorteerd. Dit is een handig hulpmiddel
+            voor bezoekers en zoekmachines om bepaalde pagina's te vinden op een
+            site.
+          </em>
+        </figcaption>
+      </figure>
+
+      <p>
+        De derde stap is om een ontwerp te gebruiken of een bestaand ontwerp
+        maar daarbij moet je wel opletten of je het mag gebruiken in verband met
+        copyrights. Als laatste stap is dat je jezelf natuurlijk moet laten
+        inspireren.
+        <br />
+        <br />
+        We kregen daarna weer uitleg over of we onze website als eerst voor de
+        mobiel moeten baseren of voor de computer, dit was onderdeel van het
+        low-fi wireframing proces. Als laatste werd het onderwerp
+        <em class="curs">Atomic Design</em> uitgelegd.
+      </p>
+
+      <figure class="fg3parent">
+        <img
+          class="fg3"
+          src="../Bronnen/Detailpagina 2 bronnen/Atomic Design.png"
+          alt="Afbeelding van het Atomic Design proces"
+        />
+        <figcaption class="fg3cap">
+          Frost, B. (z.d.). Atomic Design [Afbeelding]. <br />
+          https://bradfrost.com/blog/post/atomic-web-design/
+        </figcaption>
+      </figure>
+
+      <p>
+        Hieronder vindt u een korte uitleg/quote over atomic design. Omdat de
+        uitleg van atomic design best lang is verwijs ik u ook door naar een
+        artikel waarin u uitbundig kunt lezen over dit onderwerp. Het artikel
+        kunt u hier vinden:
+        <a
+          target="_blank"
+          href="https://www.emerce.nl/achtergrond/atomic-design-vervanger-van-de-huisstijlgids"
+          >Atomic design: vervanger van de huisstijlgids</a
+        >
+        <br />
+        <br />
+        Emerce. (2016, 14 juni). Atomic design: vervanger van de huisstijlgids.
+        Geraadpleegd op 1 november 2021, van
+        <a
+          target="_blank"
+          href="https://www.emerce.nl/achtergrond/atomic-design-vervanger-van-de-huisstijlgids"
+          >https://www.emerce.nl/achtergrond/atomic-design-vervanger-van-de-huisstijlgids</a
+        >
+      </p>
+
+      <p class="fg3cap2">
+        <em class="curs">
+          Geïnspireerd door de chemie deelt hij designs op in atomen. Die kleine
+          atomen gezamenlijk vormen moleculen, die op hun beurt samen complexere
+          organismen en uiteindelijk materie vormen. Zijn idee: deel ook designs
+          op in elementaire deeltjes en werk van daaruit naar een groter geheel
+          toe.
+        </em>
+      </p>
+    </div>
+
+    <br />
 
     <!-- Hoofdstuk 2 + paragraaf -->
-    <h2>Wat is Wireframing?</h2>
-    <p>
-      Een wireframe is een schematische tekening of blauwdruk over het structuur
-      van je website. Met wireframing komen ook verschillende fases bij kijken.
-      Je hebt low-fidelity, mid-fidelity en high-fidelity wireframes, met elke
-      stap geef je je website meer vorm weer zoals met echte tekst en
-      afbeeldingen. What are Wireframes? (4 min. video) - Balsamiq Wireframing
-      Academy - YouTube Low-fidelity - Goed om nieuwe concepten te maken/uit te
-      proberen, meer idee gericht dus nog niet veel details en deze fase creëert
-      heel veel opties. Mid-fidelity - Fase om vroege feedback te krijgen van je
-      testers/misschien doelgroep en goed voor de eerste prototypes.
-      High-fidelity - Fase met veel meer details, website bevat uitgewerkte
-      tekst en afbeelding en misschien nog de website thema/kleuren uitgewerkt.
-      Deze fase wordt vaak gebruikt als de basis voor de ontwikkelingen die gaan
-      gebeuren doordat het ook uitgewerkte details bevat met uitleg etc. voor
-      het ontwikkelingsteam.
-    </p>
+    <div class="tekstdoos2">
+      <h2>Wat is Wireframing?</h2>
+      <p>
+        Een wireframe is een schematische tekening of blauwdruk over het
+        structuur van je website. Met wireframing komen ook verschillende fases
+        bij kijken. Je hebt low-fidelity, mid-fidelity en high-fidelity
+        wireframes, met elke stap geef je je website meer vorm weer zoals met
+        echte tekst en afbeeldingen.
+      </p>
+      <br />
+
+      <figure class="fg4parent">
+        <img
+          class="fg4"
+          src="../Bronnen/Detailpagina 2 bronnen/voorbeeld 1.png"
+          alt="Voorbeeld afbeelding met de verschillende fases van wireframing"
+        />
+        <figcaption class="fg4cap">
+          (Bras, Zeeders & v.d. Beukel, 7 september 2021)
+        </figcaption>
+      </figure>
+
+      <ul>
+        <em class="b">Low-fidelity</em>
+        <li>
+          Goed om nieuwe concepten te maken/uit te proberen, meer idee gericht
+          dus nog niet veel details en deze fase creëert heel veel opties.
+        </li>
+        <br />
+
+        <em class="b">Mid-fidelity </em>
+        <li>
+          Fase om vroege feedback te krijgen van je testers/misschien doelgroep
+          en goed voor de eerste prototypes.
+        </li>
+        <br />
+
+        <em class="b">High-fidelity</em>
+        <li>
+          Fase met veel meer details, website bevat uitgewerkte tekst en
+          afbeelding en misschien nog de website thema/kleuren uitgewerkt. Deze
+          fase wordt vaak gebruikt als de basis voor de ontwikkelingen die gaan
+          gebeuren doordat het ook uitgewerkte details bevat met uitleg etc.
+          voor het ontwikkelingsteam.
+        </li>
+      </ul>
+    </div>
+
+    <br />
 
     <!-- Hoofdstuk 3 + paragraaf -->
-    <h2>Wat is Prototyping?</h2>
-    <p>
-      Op internet is de definitie van prototyping: Een prototype is een vroeg
-      model van een product, handgemaakt of via rapid prototyping, waarmee
-      optredende krachten, de werking of passing van onderdelen wordt getest en
-      de productie wordt voorbereid. Prototypen worden in allerlei disciplines
-      toegepast. De eisen aan de prototypen verschillen per productsoort.
-      (Wikipedia) Het wil dus zeggen dat je je 1ste model van in dit geval een
-      website gaat maken/ontwerpen.
-    </p>
+    <div class="tekstdoos3">
+      <h2>Wat is Prototyping?</h2>
+      <p>Op internet is de definitie van prototyping:</p>
+
+      <p class="quote">
+        <em class="curs"
+          >Een prototype is een vroeg model van een product, handgemaakt of via
+          rapid prototyping, waarmee optredende krachten, de werking of passing
+          van onderdelen wordt getest en de productie wordt voorbereid.
+          Prototypen worden in allerlei disciplines toegepast. De eisen aan de
+          prototypen verschillen per productsoort.</em
+        >
+      </p>
+      (Prototype. (2019, 13 maart). In Wikipedia.
+      <a target="_blank" href="https://nl.wikipedia.org/wiki/Prototype"
+        >https://nl.wikipedia.org/wiki/Prototype</a
+      >)
+      <br />
+      <br />
+      <p>
+        Het wil dus zeggen dat het je 1ste model is van iets en in dit geval is
+        dat het maken/ontwerpen van een website.
+      </p>
+    </div>
+
+    <br />
+
+    <!-- Volgende en vorige week knop (Vorige week knop in dit geval niet zichtbaar, geen eerdere week beschikbaar) -->
+    <div class="Volgende_vorige_knop">
+      <a class="vorige" href="../Detailpaginas/FDD_Detailpagina_Week_1.html"
+        >&laquo; Vorige Week</a
+      >
+      <a class="volgende" href="../Detailpaginas/FDD_Detailpagina_Week_3.html"
+        >Volgende week &raquo;</a
+      >
+    </div>
+
+    <!-- Websitevoet -->
+    <footer class="Footer">
+      <div class="FLogo">
+        <img
+          class=""
+          src="../Bronnen/Website logo/Website logo.png"
+          alt="Logo van de website"
+        />
+        <p>&copy; Bai Jie Cao | Christelijke Hogeschool Ede | 2021</p>
+      </div>
+
+      <ul class="SLinks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            class="fa fa-twitter"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="fa fa-youtube"
+          ></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
