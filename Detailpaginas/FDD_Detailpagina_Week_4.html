@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <title>FDD - Week 4 | Design en Accessibility</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Week 4 | Design en Accessibility" />
+    <link rel="stylesheet" href="../CSS/Menubar_opmaak.css" />
+    <link rel="stylesheet" href="../CSS/Detailpagina_4_opmaak.css" />
+    <link rel="stylesheet" href="../CSS/Volgende_vorige_knoppen_opmaak.css" />
+    <link rel="stylesheet" href="../CSS/Footer_opmaak.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Menubalk -->
+    <nav class="Menubalk">
+      <nav class="Logo">
+        <!-- Logo menu -->
+        <div class="MK_Logo">
+          <a href="../index.html"
+            ><img
+              class="MN_Logo"
+              src="../Bronnen/Website logo/Website logo.png"
+              alt="Logo van de website"
+          /></a>
+        </div>
+      </nav>
+
+      <nav class="Menuknop">
+        <!-- Creëert een dropdown knop -->
+        <div class="MK1">
+          <button class="L_MK1">Leertraject</button>
+          <div class="MK1_Dropdowncontent">
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_1.html"
+              >Week 1 | Interaction Design</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_2.html"
+              >Week 2 | Wireframing en Prototyping</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_3.html">
+              Week 3 | Usability Testing en Best Practices</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_4.html">
+              Week 4 | Grafisch Design en Accessibility</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_5.html">
+              Week 5 | Introductie HTML & CSS</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_6.html">
+              Week 6 | CSS Frameworks</a
+            >
+            <a href="../Detailpaginas/FDD_Detailpagina_Week_7.html">
+              Week 7 | DNS & Uploaden van je site</a
+            >
+            <a href="../Detailpaginas/FDD_Eindopdracht.html">
+              FDD | Eindopdracht</a
+            >
+          </div>
+        </div>
+
+        <!-- Over Mij menuknop -->
+        <div class="MK2">
+          <button class="OM_MK2">
+            <a href="../Over_Mij.html">Over Mij</a>
+          </button>
+        </div>
+
+        <!-- Contact menuknop-->
+        <div class="MK3">
+          <button class="C_MK3"><a href="../Contact.html">Contact</a></button>
+        </div>
+      </nav>
+    </nav>
+
+    <figure class="fg1parent">
+      <!-- Pagina hoofdstuk -->
+      <div class="fg1tekst">
+        <h1>Week 4 | Design en Accessibility</h1>
+      </div>
+
+      <img
+        class="fg1"
+        src="../Bronnen/Detailpagina 4 bronnen/Week 4 - banner.jpeg"
+        alt="Banner van week 4 Design en Accessibility"
+      />
+      <figcaption class="fg1cap">
+        Accessibility. (z.d.). [Afbeelding]. <br />
+        https://uxplanet.org/designing-with-accessibility-in-mind-f25a3f70b8c0
+      </figcaption>
+    </figure>
+
+    <!-- Hoofdstuk 1 + paragraaf -->
+    <div class="tekstdoos1">
+      <h2>Samenvatting van het college</h2>
+      <p>
+        Het 4de college stond het thema
+        <em class="curs">Grafisch Design en Accessibility</em>
+        centraal. We begonnen het college zoals gewoonlijk met een korte
+        terugblik over de behandelde onderwerpen van de week ervoor. Daarna
+        begonnen we met wat vragen over kleur (voor het college hadden we het
+        huiswerk om het onderwerp kleur door te nemen).
+      </p>
+      <p>Hierin werd verteld dat kleur wordt weergeven in 3 dimensies.</p>
+      <ul>
+        <em class="b">Hue</em>
+        <li>Dit is wat we gewoonlijk kleur noemen.</li>
+        <br />
+        <em class="b">Verzadiging (Saturation)</em>
+        <li>Dit is de maat die de sterkte van een kleur bepaalt.</li>
+        <br />
+        <em class="b">Helderheid (Lightness/tone)</em>
+        <li>Dit is de licht/donkerheid van een kleur.</li>
+      </ul>
+      <p>In de onderstaande afbeelding kunt u de HSL-kleurruimte zien.</p>
+
+      <figure class="fg2parent">
+        <img
+          class="fg2"
+          src="../Bronnen/Detailpagina 4 bronnen/HSL Kleurruimte.png"
+          alt="Afbeelding van de HSL Kleurruimte"
+        />
+        <figcaption>
+          HSL (kleurruimte). (2019, 18 juni). In Wikipedia. <br />
+          https://nl.wikipedia.org/wiki/HSL_(kleurruimte)
+        </figcaption>
+      </figure>
+
+      <p>
+        Moodboards was het volgende onderwerp wat we behandelde, wat is het nut
+        daarvan en heeft het ook echt impact op je websitedesign. Daarna kregen
+        we een introductie over een van de hoofdonderwerpen
+        <em class="curs">Grafisch Design</em>. We kregen uitgelegd dat grafisch
+        design zorgt voor de bruikbaarheid, begrijpbaarheid en dat het aansluit
+        op emotie over een product. We kregen daarna uitleg over
+        <em class="curs">Beeld vs Tekst</em>, er werd uitgelegd dat beelden
+        beter door mensen worden opgepikt dan tekst en dat wanneer je bezoekers
+        hebt op je website dat ze vrij weinig actief lezen.
+        <em class="curs">Design is soms details</em> was het volgende waar we
+        het over hadden, welke sfeer wil je met je design bereiken, de
+        leesbaarheid, welke lettertype hoort daarbij en wat is de uitstraling.
+        Daarna kregen we uitleg over de <em class="curs">Gestalt Principes</em>.
+      </p>
+
+      <figure class="fg3parent">
+        <img
+          class="fg3"
+          src="../Bronnen/Detailpagina 4 bronnen/Gestalt principes.jpg"
+          alt="Afbeelding die de Gestalt principes afbeelden"
+        />
+        <figcaption>
+          Gestalt Principles. (z.d.). [Afbeelding]. <br />
+          https://www.neurosciencemarketing.com/blog/articles/gestalt-principles.htm
+        </figcaption>
+      </figure>
+
+      <ul>
+        <em class="b">Nabijheid/Proximity</em>
+        <li>
+          Objecten die dicht in de buurt staan van elkaar worden als een groep
+          gezien.
+        </li>
+        <br />
+        <em class="b">Gelijkenis/Similarity</em>
+        <li>Objecten die hetzelfde zijn worden aan elkaar gegroepeerd.</li>
+        <br />
+        <em class="b">Sluiting/Closure</em>
+        <li>
+          Onze hersenen maken van onderbroken objecten automatisch zonder dat we
+          ernaar vragen weer een geheel van.
+        </li>
+        <br />
+        <em class="b">Voortzetting/Continuation</em>
+        <li>
+          Onze ogen zien graag objecten als een pad en we interpreteren graag
+          dingen die verbonden zijn in plaats van losgekoppeld.
+        </li>
+        <br />
+        <em class="b">Figuur en grond/Figure and ground</em>
+        <li>
+          Verschillende objecten kunnen zien wanneer er op de achtgrond of
+          figuur wordt gefocust.
+        </li>
+        <br />
+        <em class="b">Kadering/Common region</em>
+        <li>
+          Objecten of groepen hebben een rand waardoor we ze
+          automatisch/makkelijker als gegroepeerd zien.
+        </li>
+        <br />
+        <em class="b">Symmetrie/Symmetry</em>
+        <li>
+          Objecten die een symmetrie met elkaar hebben worden sneller gezien als
+          een groep.
+        </li>
+      </ul>
+
+      <p>
+        We kregen daarna kort de tijd om wat Gestalt principes uit te voeren op
+        onze website. Hierna kregen we wat voorbeelden van
+        <em class="curs">Software Design Tools</em>, hierin werden verschillende
+        programma’s genoemd om tot website prototypes te komen etc. Daarna
+        kregen we uitleg over <em class="curs">Vector vs Pixel</em>. Zoals je in
+        de onderstaande afbeelding kunt zien zie je het verschil tussen vector
+        en pixel.
+      </p>
+
+      <figure class="fg4parent">
+        <img
+          class="fg4"
+          src="../Bronnen/Detailpagina 4 bronnen/Vector vs Pixel.png"
+          alt="Afbeelding die laat zien wat een vector en een pixel is"
+        />
+        <figcaption>
+          Sketch. (z.d.). Vector vs Pixel [Afbeelding]. <br />
+          https://www.sketch.com/docs/designing/the-interface/the-canvas/
+        </figcaption>
+      </figure>
+
+      <p>
+        Het andere hoofdonderwerp <em class="curs">Accessibility</em> werd toen
+        geïntroduceerd. Er werd ons toen uitgelegd dat een website aan bepaalde
+        accessibility eisen moet voldoen. We kregen toen de stelling
+        <em class="curs"
+          >‘Zou je altijd aan Accessibility (toegankelijkheidsnormen) moeten
+          willen voldoen?’</em
+        >, we mochten gaan onderbouwen waarom we voor of tegen waren op deze
+        stelling. Als laatst kregen uitleg over de 3 niveau's van de Web Content
+        Accessibility Guidelines (WCAG). Dit zijn de regels waaraan een website
+        moet voldoen zodat het èèn van de aangegeven scores kan ontvangen.
+        <br />
+        Voor meer informatie over dit onderwerp kunt u het volgende artikel
+        bezoeken:
+        <a href="https://www.w3.org/WAI/standards-guidelines/wcag/"
+          >Web Content Accessibility Guidelines (WCAG) Overview</a
+        >
+      </p>
+
+      <figure class="fg5parent">
+        <img
+          class="fg5"
+          src="../Bronnen/Detailpagina 4 bronnen/3 niveaus WCAG.png"
+          alt="Laat de 3 verschillende niveau's zien van de WCAG"
+        />
+        <figcaption class="fg5cap">
+          (Bras, Zeeders & v.d. Beukel, 1 oktober 2021)
+        </figcaption>
+      </figure>
+    </div>
+
+    <br />
+
+    <!-- Hoofdstuk 2 + paragraaf -->
+    <div class="tekstdoos2">
+      <h2>Wat is Grafisch Design?</h2>
+      <p>
+        Als je design vertaalt krijg je ontwerp, dus design is je ontwerp. In
+        dit geval wordt er gesproken van grafisch design dat houd in dat je je
+        bezighoud met de vormgeving van ideeën in verschillende media, hierbij
+        moet je denken aan websites, brochures advertenties etc. Grafisch design
+        zorgt voor bruikbaarheid, begrijpbaarheid en het sluit aan op je
+        emoties. Bij het design wil je ook letten op de details zoals welke
+        sfeer wil je met je ontwerp bereiken, de leesbaarheid, welke lettertype
+        zorgt dan voor een duidelijke leesbaarheid of welk lettertype in het
+        algemeen en ook de uitstraling van je ontwerp.
+      </p>
+    </div>
+
+    <br />
+
+    <!-- Hoofdstuk 3 + paragraaf -->
+    <div class="tekstdoos3">
+      <h2>Wat is Accessibility?</h2>
+      <p>
+        Accessibility betekent in het Nederlands toegankelijkheid dit houd in
+        dit geval in dat je je website toegankelijk wilt maken. Maar je vraagt
+        je dan misschien af voor wie moet je het toegankelijk maken? Je wilt je
+        website natuurlijk voor iedereen toegankelijk maken dus óók voor mensen
+        met een beperking etc.
+      </p>
+
+      <figure class="fg6parent">
+        <img
+          class="fg6"
+          src="../Bronnen/Detailpagina 4 bronnen/Accessibility.png"
+          alt="Afbeelding laat 5 verschillende accessibility punten zien"
+        />
+        <figcaption class="fg6cap">
+          (Bras, Zeeders & v.d. Beukel, 1 oktober 2021)
+        </figcaption>
+      </figure>
+
+      <p>
+        In de afbeelding hierboven kun je zien voor welke groepen je rekening
+        kunt houden om het ook voor hun zo toegankelijk mogelijk te maken.
+        <br />
+        <br />
+        Websites kunnen ook voor hun toegankelijkheid gemeten worden/beoordeeld
+        worden, dat gaat doormiddel van het WCAG document. In dat document staat
+        aangegeven waaraan een website moet voldoen om een score/beoordeling
+        volgens het document te ontvangen, hierin zitten ook verschillende
+        categorieën in om te scoren.
+      </p>
+    </div>
+
+    <br />
+
+    <!-- Volgende en vorige week knop (Vorige week knop in dit geval niet zichtbaar, geen eerdere week beschikbaar) -->
+    <div class="Volgende_vorige_knop">
+      <a class="vorige" href="../Detailpaginas/FDD_Detailpagina_Week_3.html"
+        >&laquo; Vorige Week</a
+      >
+      <a class="volgende" href="../Detailpaginas/FDD_Detailpagina_Week_5.html"
+        >Volgende week &raquo;</a
+      >
+    </div>
+
+    <!-- Websitevoet -->
+    <footer class="Footer">
+      <div class="FLogo">
+        <img
+          class=""
+          src="../Bronnen/Website logo/Website logo.png"
+          alt="Logo van de website"
+        />
+        <p>&copy; Bai Jie Cao | Christelijke Hogeschool Ede | 2021</p>
+      </div>
+
+      <ul class="SLinks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            class="fa fa-twitter"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="fa fa-youtube"
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
