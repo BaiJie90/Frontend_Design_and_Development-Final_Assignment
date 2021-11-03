@@ -1,0 +1,89 @@
+/*
+Wanneer een veld niet wordt ingevuld wordt het rand van het veld rood gekleurd
+*/
+input.touched:invalid,
+textarea.touched:invalid {
+  border-color: red;
+}
+
+/*
+Zorgt dat het formulier een doos formaat heeft
+https://www.w3schools.com/howto/howto_css_contact_section.asp
+*/
+.formulier,
+.kolom {
+  box-sizing: border-box;
+}
+
+.fg1 {
+  width: 500px;
+}
+
+/* 
+Geeft de input elementen opmaak
+*/
+input[type="text"],
+select,
+textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #01b9f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45cbf8;
+}
+
+/* 
+Geeft de hele formulier opmaak 
+*/
+.formulier {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 1280px;
+}
+
+/*
+Zorgt ervoor dat de afbeelding en de input elementen naast elkaar worden weergeven
+*/
+.kolom {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* 
+Clear floats after the columns 
+*/
+.rij:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 
+Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other 
+*/
+@media screen and (max-width: 600px) {
+  .kolom,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
