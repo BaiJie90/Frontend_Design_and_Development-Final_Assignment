@@ -104,3 +104,29 @@ Responsive layout - when the screen is less than 600px wide, make the two column
     margin-top: 0;
   }
 }
+
+/*
+Weergeeft de bron vermelding op de afbeelding
+https://code-boxx.com/position-text-over-image-html/ 
+*/
+.fg1parent {
+  position: relative;
+}
+
+/* REQUIRED */
+.fg1parent figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 5px;
+  margin-left: auto;
+}
+
+/* (D) CAPTION COSMETICS */
+.fg1parent figcaption {
+  box-sizing: border-box;
+  width: fit-content;
+  color: white;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.4);
+}
