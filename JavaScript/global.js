@@ -8,7 +8,7 @@ $(document).ready(function (e) {
             data: $("#myForm").serialize(),
             success: function () {
                 // Redirect to another success page
-                window.location = "index.html";
+                alert("Uw bericht is succesvol verzonden!");
             }
         });
     });
