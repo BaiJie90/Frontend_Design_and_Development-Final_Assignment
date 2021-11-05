@@ -1,0 +1,229 @@
+/* 
+Zorgt dat de afbeelding correct wordt weergeven 
+https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window
+*/
+.fg1parent {
+  position: relative;
+}
+
+.fg1 {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+}
+
+/*
+Weergeeft de tekst bovenop de figuur
+https://www.w3schools.com/howto/howto_css_blurred_background.asp 
+*/
+.fg1tekst {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 87%;
+  padding: 10px;
+  text-align: center;
+}
+
+/*
+Zorgt ervoor dat de tekstdozen centraal staan
+https://www.w3.org/Style/Examples/007/center.en.html
+*/
+.tekstdoos1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+/*
+Wanner de muis over de afbeelding hangt wordt de afbeelding vergroot
+https://stackoverflow.com/questions/25036597/how-to-enlarge-an-image-on-hover-or-click
+*/
+.fg2,
+.fg9,
+.fg11,
+.fg13 {
+  transition: transform 0.25s ease;
+}
+
+.fg2:hover,
+.fg9:hover,
+.fg11:hover,
+.fg13:hover {
+  -webkit-transform: scale(1.5); /* or some other value */
+  transform: scale(1.5);
+}
+
+/*
+Zorgt voor de opmaak en de grote van de afbeeldingen in de teksten
+*/
+.fg2parent,
+.fg3parent,
+.fg4parent,
+.fg5parent,
+.fg6parent,
+.fg7parent,
+.fg8parent,
+.fg9parent,
+.fg10parent,
+.fg11parent,
+.fg12parent,
+.fg13parent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+.fg2,
+.fg3,
+.fg4,
+.fg5,
+.fg6,
+.fg7,
+.fg8,
+.fg9,
+.fg10,
+.fg11,
+.fg12,
+.fg13 {
+  width: 720px;
+}
+
+.sh3img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* 
+Regelt de opmaak van de h3 elementen
+*/
+h3 {
+  text-align: center;
+}
+
+/*
+Zorgt voor de opmaak van de slideshow
+https://www.w3schools.com/howto/howto_js_slideshow.asp 
+https://stackoverflow.com/questions/43299759/how-do-i-make-multiple-slideshows-in-the-same-html-document/43300869
+*/
+.mySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 720px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  margin-bottom: 25px;
+  width: 96.75%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+/*
+Zorgt voor de opmaak van de vergelijkings slider
+https://www.w3schools.com/howto/howto_js_image_comparison.asp
+*/
+.img-comp-container {
+  position: relative;
+  height: 480px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196f3;
+  opacity: 0.7;
+  border-radius: 50%;
+}

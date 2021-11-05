@@ -16,6 +16,17 @@ h2 {
   font-size: 28pt;
 }
 
+h3 {
+  font-size: 20pt;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
 /*
 Opmaak van gedefineerde woorden/zinnen
 */
@@ -34,6 +45,7 @@ figcaption {
 
 /*
 Defineert de custom lettertype
+https://fonts.google.com/specimen/Rubik?category=Sans+Serif&query=rubik
 */
 @font-face {
   font-family: "Rubik";

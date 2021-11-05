@@ -38,9 +38,9 @@ https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the
 }
 
 /*
-  Weergeeft de tekst bovenop de figuur
-  https://www.w3schools.com/howto/howto_css_blurred_background.asp 
-  */
+Weergeeft de tekst bovenop de figuur
+https://www.w3schools.com/howto/howto_css_blurred_background.asp 
+*/
 .fg1tekst {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
