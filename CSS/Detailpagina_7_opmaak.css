@@ -69,3 +69,36 @@ https://www.w3.org/Style/Examples/007/center.en.html
   margin-right: auto;
   width: 720px;
 }
+
+/*
+Zorgt voor de opmaak en de grote van de afbeeldingen in de teksten
+*/
+.fg2parent {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+.fg2 {
+  width: 720px;
+}
+
+/*
+Zorgt ervoor dat de caption in de figuur staat
+*/
+.fg2parent figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 4px;
+}
+
+.fg2parent figcaption {
+  box-sizing: border-box;
+  width: fit-content;
+  color: white;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,162 @@
+/*
+Opmaak van de algemene teksten en koppen
+*/
+body {
+  font-family: "Rubik";
+  font-size: 13pt;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 28pt;
+}
+
+/*
+Opmaak van gedefineerde woorden/zinnen
+*/
+.curs {
+  font-style: italic;
+}
+
+.b {
+  font-style: normal;
+  font-weight: bold;
+}
+
+figcaption {
+  font-size: 11pt;
+}
+
+/*
+Defineert de custom lettertype
+*/
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-BoldItalic.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-ExtraBold.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-BlackItalic.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-ExtraBoldItalic.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-Black.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-Bold.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-LightItalic.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-MediumItalic.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-Medium.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-Light.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-Italic.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-SemiBold.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-SemiBoldItalic.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../CSS/Lettertype/Rubik-Regular.woff2") format("woff2"),
+    url("../CSS/Lettertype/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

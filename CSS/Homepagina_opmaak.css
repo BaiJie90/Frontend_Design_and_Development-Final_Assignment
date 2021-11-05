@@ -51,6 +51,9 @@ https://www.w3schools.com/css/css_float_examples.asp
   margin-right: 102px;
 }
 
+/*
+Regelt de opmaak van het lettertype specifiek voor deze pagina
+*/
 .tekstdooshoofd1,
 .tekstdooshoofd2 {
   font-size: 36px;
