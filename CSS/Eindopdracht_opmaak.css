@@ -53,15 +53,13 @@ https://stackoverflow.com/questions/25036597/how-to-enlarge-an-image-on-hover-or
 */
 .fg2,
 .fg9,
-.fg11,
-.fg13 {
+.fg11 {
   transition: transform 0.25s ease;
 }
 
 .fg2:hover,
 .fg9:hover,
-.fg11:hover,
-.fg13:hover {
+.fg11:hover {
   -webkit-transform: scale(1.5); /* or some other value */
   transform: scale(1.5);
 }
@@ -79,8 +77,7 @@ Zorgt voor de opmaak en de grote van de afbeeldingen in de teksten
 .fg9parent,
 .fg10parent,
 .fg11parent,
-.fg12parent,
-.fg13parent {
+.fg12parent {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -97,8 +94,7 @@ Zorgt voor de opmaak en de grote van de afbeeldingen in de teksten
 .fg9,
 .fg10,
 .fg11,
-.fg12,
-.fg13 {
+.fg12 {
   width: 720px;
 }
 
@@ -107,6 +103,17 @@ Zorgt voor de opmaak en de grote van de afbeeldingen in de teksten
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.sh4img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sh4img2 {
+  width: 720px;
 }
 
 /* 
